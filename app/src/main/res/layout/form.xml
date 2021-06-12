@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="1050dp"
+    android:layout_height="1900dp"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:src="@drawable/ssms_green"
+        tools:ignore="ContentDescription" />
+
+    <include
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/tvEstate"
+        layout="@layout/tv_isian" />
+
+    <include
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/tvAfd"
+        layout="@layout/tv_isian" />
+
+    <include
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/tvBlok"
+        layout="@layout/tv_isian" />
+
+    <include
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/tvTanggal"
+        layout="@layout/tv_isian" />
+
+</LinearLayout>

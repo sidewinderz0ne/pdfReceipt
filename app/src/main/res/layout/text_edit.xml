@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="center"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Estate"
+            android:id="@+id/textContent"
+            android:fontFamily=""
+            android:textSize="18sp"/>
+        <TextView
+            android:textAlignment="textEnd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=":"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etContent"
+            android:layout_marginLeft="30dp"
+            android:fontFamily="@font/helvetica"
+            android:textSize="18sp"
+            android:imeOptions="actionNext"/>
+
+    </LinearLayout>
+
+</LinearLayout>
