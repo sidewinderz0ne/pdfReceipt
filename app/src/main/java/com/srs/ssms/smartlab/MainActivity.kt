@@ -28,13 +28,23 @@ class MainActivity : AppCompatActivity() {
         tvUser.text = "${PrefManager(this).name}" //setting nama dari shared preferences
 
         //ganti icon dan warna text dan button
-        inputSampel.ivMenu.setImageDrawable(resources.getDrawable(R.drawable.ssms_green))
+        oven.ivMenu.setImageDrawable(resources.getDrawable(R.drawable.oven))
+        //oven.ivMenu.imageTintList = ColorStateList.valueOf(getColor(R.color.blueDefault))
+        oven.cardMenu.setStrokeColor(ColorStateList.valueOf(getColor(R.color.blueDefault)))
+        oven.tvMenu.setTextColor(ColorStateList.valueOf(getColor(R.color.blueDefault)))
+
+        inputSampel.ivMenu.setImageDrawable(resources.getDrawable(R.drawable.input_sampel))
         //inputSampel.ivMenu.imageTintList = ColorStateList.valueOf(getColor(R.color.blueDefault))
         inputSampel.cardMenu.setStrokeColor(ColorStateList.valueOf(getColor(R.color.blueDefault)))
         inputSampel.tvMenu.setTextColor(ColorStateList.valueOf(getColor(R.color.blueDefault)))
 
-        preparasi.ivMenu.setImageDrawable(resources.getDrawable(R.drawable.ssms_green))
-        preparasi.ivMenu.imageTintList = ColorStateList.valueOf(getColor(R.color.blueDefault))
+        pengukuran.ivMenu.setImageDrawable(resources.getDrawable(R.drawable.pengukuran))
+        //pengukuran.ivMenu.imageTintList = ColorStateList.valueOf(getColor(R.color.blueDefault))
+        pengukuran.cardMenu.setStrokeColor(ColorStateList.valueOf(getColor(R.color.blueDefault)))
+        pengukuran.tvMenu.setTextColor(ColorStateList.valueOf(getColor(R.color.blueDefault)))
+
+        preparasi.ivMenu.setImageDrawable(resources.getDrawable(R.drawable.preparasi))
+        //preparasi.ivMenu.imageTintList = ColorStateList.valueOf(getColor(R.color.blueDefault))
         preparasi.cardMenu.setStrokeColor(ColorStateList.valueOf(getColor(R.color.blueDefault)))
         preparasi.tvMenu.setTextColor(ColorStateList.valueOf(getColor(R.color.blueDefault)))
 

@@ -18,15 +18,16 @@
 
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
             app:srcCompat="@drawable/ssms_green" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:weightSum="3">
+            android:weightSum="3"
+            android:layout_marginLeft="10dp">
 
             <TextView
                 android:id="@+id/textView1"
@@ -35,7 +36,7 @@
                 android:layout_weight="1"
                 android:fontFamily="@font/segoeuib"
                 android:text="Selamat Datang!"
-                android:textSize="14sp"/>
+                android:textSize="20sp"/>
 
             <TextView
                 android:id="@+id/tvUser"
@@ -45,7 +46,7 @@
                 android:fontFamily="@font/seguisb"
                 android:text="Donald Trump"
                 android:textColor="@color/blueDefault"
-                android:textSize="18sp" />
+                android:textSize="23sp" />
 
             <TextView
                 android:id="@+id/penyelia"
@@ -54,7 +55,7 @@
                 android:layout_weight="1"
                 android:fontFamily="@font/segoeuib"
                 android:text="Penyelia"
-                android:textSize="14sp"/>
+                android:textSize="20sp"/>
         </LinearLayout>
 
     </LinearLayout>
@@ -73,7 +74,9 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center">
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -140,11 +143,11 @@
 
     <ImageView
         android:id="@+id/ivSRS"
-        android:layout_width="50dp"
+        android:layout_width="100dp"
         android:layout_height="50dp"
         android:layout_marginStart="32dp"
         android:layout_marginBottom="32dp"
-        android:src="@drawable/ssms_green"
+        android:src="@drawable/logo_srs"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         android:textColor="@color/blueDefault"

@@ -20,7 +20,7 @@ class Splash : AppCompatActivity() {
                 } catch (e: InterruptedException) {
                     e.printStackTrace()
                 } finally {
-                    startActivity(Intent(this@Splash, InputSampel::class.java))
+                    startActivity(Intent(this@Splash, Login::class.java))
                     finish()
                 }
             }

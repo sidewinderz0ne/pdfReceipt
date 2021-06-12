@@ -86,12 +86,12 @@ class Login : AppCompatActivity() {
         window.statusBarColor = Color.WHITE //ganti warna statusbar
         progressBarHolder.visibility = View.GONE //hilangkan progressbar
 
-        Glide.with(this)//GLIDE LOGO FOR LOADING LAYOUT
+        /*Glide.with(this)//GLIDE LOGO FOR LOADING LAYOUT
             .load(R.drawable.ssms_green)
             .into(logo_ssms)
         lottie.setAnimation("loading_circle.json")//ANIMATION WITH LOTTIE FOR LOADING LAYOUT
         lottie.loop(true)
-        lottie.playAnimation()
+        lottie.playAnimation()*/
     }
 
     @Suppress("RECEIVER_NULLABILITY_MISMATCH_BASED_ON_JAVA_ANNOTATIONS", "UNNECESSARY_SAFE_CALL")
